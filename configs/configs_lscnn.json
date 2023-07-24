@@ -1,0 +1,28 @@
+{
+  "lambda_lsc": 1,
+  "lsc_loss": "ed",
+  "is_project": false,
+  "seed": 66,
+  "epochs": 2000,
+  "train_loading": {
+    "batch_size": 16,
+    "shuffle": true,
+    "drop_last": false
+  },
+
+  "val_loading": {
+    "batch_size": 16,
+    "shuffle": false,
+    "drop_last": false
+  },
+  "test_loading": {
+    "batch_size": 16,
+    "shuffle": false,
+    "drop_last": false
+  },
+
+  "optim": {
+    "lr": 1e-5,
+    "alpha": 0.95
+  }
+}
